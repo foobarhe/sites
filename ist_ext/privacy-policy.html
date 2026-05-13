@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Insightap</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+    h1 { font-size: 1.8em; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    h2 { font-size: 1.3em; margin-top: 1.5em; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: #0066cc; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for Insightap</h1>
+  <p><strong>Last updated: May 13, 2026</strong></p>
+
+  <h2>What Insightap Does</h2>
+  <p>Insightap is a browser extension that analyzes web content from X/Twitter, YouTube, and WeChat using AI and displays structured summaries.</p>
+
+  <h2>Data Collection</h2>
+  <p>Insightap collects the following data <strong>only when you click the Insightap button</strong>:</p>
+  <ul>
+    <li><strong>Website content</strong>: Tweet text, comments, YouTube video transcripts, and WeChat article text from the page you are viewing.</li>
+  </ul>
+
+  <h2>How Data Is Used</h2>
+  <p>Collected content is sent directly to the AI API endpoint <strong>you configure</strong> (e.g., OpenAI) to generate summaries. Insightap does not operate any intermediate server.</p>
+
+  <h2>Data Storage</h2>
+  <ul>
+    <li><strong>User settings</strong> (API key, model, language, prompt templates) are stored locally in your browser using chrome.storage.sync.</li>
+    <li><strong>Cached summaries</strong> are stored in memory only and cleared when the browser is closed.</li>
+    <li>No data is stored on any external server controlled by Insightap.</li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p>Insightap does <strong>not</strong> sell, transfer, or share your data with any third party. The only external communication is between your browser and the API endpoint you configure.</p>
+
+  <h2>Third-Party APIs</h2>
+  <p>When you use Insightap, the content you analyze is sent to the API provider you choose (e.g., OpenAI). Please review your API provider's privacy policy for how they handle data.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>activeTab</strong>: Access the current tab when you click the extension icon.</li>
+    <li><strong>storage</strong>: Save your settings locally.</li>
+    <li><strong>sidePanel</strong>: Display summaries in the browser side panel.</li>
+    <li><strong>Host permissions</strong> (x.com, twitter.com, youtube.com, mp.weixin.qq.com): Inject content script to extract page content for analysis.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted here with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions, open an issue on the <a href="https://github.com/foobarhe/sites">GitHub repository</a>.</p>
+</body>
+</html>
